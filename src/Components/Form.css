@@ -1,0 +1,62 @@
+.row{
+    height: 100vh;
+  
+    /* padding-block: 10.5rem; */
+}
+
+.col-div{
+   
+ 
+position: relative;
+	background:rgba(40,57,101,.9);
+ 
+}
+ .col-div::before{
+    top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+    position: absolute;
+    content:"";
+background:url(https://raw.githubusercontent.com/khadkamhn/day-01-login-form/master/img/bg.jpg) no-repeat center ;
+
+ 	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19) ;
+  background-size: cover;
+  opacity: 0.1;
+ 	
+
+}
+
+.content{
+  position: relative;
+}
+h3{
+ color: #fff;
+}
+.labels{
+ font-size:larger;
+ font-weight: 500;
+ color: #fff;
+    
+}
+.input{
+    border-radius: 25px;
+    width: 100%;
+    padding-inline: 10px;
+    padding-block: 5px;
+    	background:rgba(255,255,255,.1);
+        
+    border: 1px solid #1161ee;
+   color: #fff;
+   padding-left: 15px;
+}
+ 
+
+.submitbutton{
+    padding-block:6px;
+    padding-inline: 35px;
+    border-radius: 25px;
+    	background:#1161ee;
+  
+    border: 1px solid #1161ee;
+}

@@ -107,6 +107,7 @@ function Form() {
       seterror5(true);
       seterror6(true);
       seterror7(true);
+
       return;
     } else {
       seterror1(false);
@@ -115,6 +116,153 @@ function Form() {
       seterror4(false);
       seterror5(false);
       seterror6(false);
+      seterror7(false);
+    }
+
+    // Input One
+
+    if (input1.trim().length === 0) {
+      return seterror1(true);
+    } else {
+      seterror1(false);
+    }
+
+    if (
+      input2.trim().length === 0 &&
+      input3.trim().length === 0 &&
+      input4.trim().length === 0 &&
+      input5.trim().length === 0 &&
+      input6.trim().length === 0 &&
+      input7.trim().length === 0
+    ) {
+      seterror2(true);
+      seterror3(true);
+      seterror4(true);
+      seterror5(true);
+      seterror6(true);
+      seterror7(true);
+
+      return;
+    } else {
+      seterror2(false);
+      seterror3(false);
+      seterror4(false);
+      seterror5(false);
+      seterror6(false);
+      seterror7(false);
+    }
+    // Input Two
+
+    if (input2.trim().length === 0) {
+      return seterror2(true);
+    } else {
+      seterror2(false);
+    }
+
+    if (
+      input3.trim().length === 0 &&
+      input4.trim().length === 0 &&
+      input5.trim().length === 0 &&
+      input6.trim().length === 0 &&
+      input7.trim().length === 0
+    ) {
+      seterror3(true);
+      seterror4(true);
+      seterror5(true);
+      seterror6(true);
+      seterror7(true);
+
+      return;
+    } else {
+      seterror3(false);
+      seterror4(false);
+      seterror5(false);
+      seterror6(false);
+      seterror7(false);
+    }
+    //input3
+
+    if (input3.trim().length === 0) {
+      return seterror3(true);
+    } else {
+      seterror3(false);
+    }
+
+    if (
+      input4.trim().length === 0 &&
+      input5.trim().length === 0 &&
+      input6.trim().length === 0 &&
+      input7.trim().length === 0
+    ) {
+      seterror4(true);
+      seterror5(true);
+      seterror6(true);
+      seterror7(true);
+
+      return;
+    } else {
+      seterror4(false);
+      seterror5(false);
+      seterror6(false);
+      seterror7(false);
+    }
+
+    //input 4
+    if (input4.trim().length === 0) {
+      return seterror4(true);
+    } else {
+      seterror4(false);
+    }
+
+    if (
+      input5.trim().length === 0 &&
+      input6.trim().length === 0 &&
+      input7.trim().length === 0
+    ) {
+      seterror5(true);
+      seterror6(true);
+      seterror7(true);
+
+      return;
+    } else {
+      seterror5(false);
+      seterror6(false);
+      seterror7(false);
+    }
+    //input 5
+
+    if (input5.trim().length === 0) {
+      return seterror5(true);
+    } else {
+      seterror5(false);
+    }
+
+    if (input6.trim().length === 0 && input7.trim().length === 0) {
+      seterror6(true);
+      seterror7(true);
+
+      return;
+    } else {
+      seterror6(false);
+      seterror7(false);
+    }
+    // input 6
+    if (input6.trim().length === 0) {
+      return seterror6(true);
+    } else {
+      seterror6(false);
+    }
+    if (input7.trim().length === 0) {
+      seterror7(true);
+
+      return;
+    } else {
+      seterror7(false);
+    }
+
+    if (input7.trim().length === 0) {
+      return seterror7(true);
+    } else {
       seterror7(false);
     }
 
